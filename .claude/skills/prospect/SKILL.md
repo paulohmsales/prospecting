@@ -1,6 +1,6 @@
 ---
 name: prospect
-description: Turn an ICP (ideal customer profile) and a country, or any plain-language target ("cybersecurity company that serves healthcare clients, in denmark"), into a verified shortlist of companies with details and the key people to contact on LinkedIn, saved as a Markdown file. Use for any request to find companies, leads, prospects, accounts or contacts for an ICP.
+description: Turn an ICP (ideal customer profile) and a country, or any plain-language target ("B2B SaaS companies selling to retailers, in Portugal"), into a verified shortlist of companies with details and the key people to contact on LinkedIn, saved as a Markdown file. Use for any request to find companies, leads, prospects, accounts or contacts for an ICP.
 argument-hint: <ICP or kind of company> in <country> [how many] [who you want to reach]
 ---
 
@@ -49,9 +49,7 @@ Also check the other ICP criteria (size, model, signals). A company that misses 
 criterion goes down a fit level, and the card says which criterion it missed.
 
 ## 3. Check the company is real and active
-- If a connected registry MCP covers the country (e.g. `nordic-registry` for DK/NO/FI/SE),
-  use it: search by name, then get details.
-- Otherwise search the country's official business register through Exa/Tavily (e.g. UK
+- Search the country's official business register through Exa/Tavily (e.g. UK
   Companies House, Germany Handelsregister/Northdata, US state registries/SEC, Brazil CNPJ)
   and cite the register page if one is public.
 - If nothing official is found, fall back to signals: recent news, active website, LinkedIn

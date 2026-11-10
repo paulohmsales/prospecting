@@ -1,7 +1,7 @@
 # prospecting
 
 A personal B2B prospecting assistant. The user describes a target in plain language
-("cybersecurity company that serves healthcare clients, in denmark") and gets a shortlist
+("B2B SaaS companies selling to retailers, in Portugal") and gets a shortlist
 of real companies with evidence and the key people to contact on LinkedIn.
 
 Run the `/prospect` skill for any request of that shape, even if the user doesn't name it.
@@ -11,10 +11,9 @@ Run the `/prospect` skill for any request of that shape, even if the user doesn'
 |---|---|---|
 | `exa` (hosted, no key) | `web_search_exa` finds companies (`category:company`) and LinkedIn profiles (`category:people`); `web_fetch_exa` reads pages | free, rate-limited |
 | `tavily` (hosted, OAuth login) | `tavily-search` / `tavily-extract`: second search engine, case studies, news, procurement, partner lists | free, 1,000 credits/month |
-| `nordic-registry` (local binary, optional) | official registries for DK/NO/FI (SE needs credentials). Other countries: check the national register through search | free, no key |
 
-Works for any country and segment. Add a free registry MCP for another country only when it's
-used often.
+Works for any country and segment. Company registries are checked through search (the
+country's official business register).
 
 Don't add paid tools. Apollo's free plan can't search companies, so it's not used.
 
