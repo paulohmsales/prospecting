@@ -1,0 +1,6 @@
+bin/
+output/
+.DS_Store
+.envrc
+CLAUDE.local.md
+.claude/settings.local.json
